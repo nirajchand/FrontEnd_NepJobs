@@ -1,0 +1,42 @@
+.profile-container {
+  width: 900px !important;
+  height: auto;
+  margin: 30px auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.roundedProfileImage{
+  border-radius: 50%;
+  width: 150px !important;
+  height: 150px !important;
+}
+
+.profile-info {
+  margin-bottom: 5px; 
+  font-size: 14px;
+}
+
+.updateBtn{
+  margin-left: 150px;
+}
+
+.infoCol{
+  margin-left: -290px;
+}
+
+.infoData{
+  margin-bottom: 5px; 
+  font-size: 14px;
+}
+
+.skillsInfo{
+  margin-bottom: 5px; 
+  font-size: 14px;
+  margin-left: -290px;
+
+}
+
+
