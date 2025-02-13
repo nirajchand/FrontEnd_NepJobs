@@ -1,0 +1,50 @@
+.Footer_Container{
+    background-color: #B5C0D0;
+    height: 150px;
+    margin-top: auto;
+}
+
+.Footer_Container li{
+    list-style-type: none;
+}
+
+.Footer_Container a{
+    text-decoration: none;
+    color: black;
+}
+
+.Footer_Container ul {
+    padding: 0; 
+}
+
+.FooterEnd{
+    height: 50px;
+    background-color: #9AA6B3;
+}
+
+
+.First_col{
+    margin-left: 200px;
+}
+
+.LastCol{
+    margin-right: 200px;
+}
+
+.Facebook_Icon{
+    width: 50px;
+    height: 50px;
+    margin-left: 200px;
+}
+
+.Instagram_Icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.Linkendin_Icon{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
