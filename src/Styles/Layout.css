@@ -1,0 +1,7 @@
+/* Layout container that uses Flexbox */
+.App_layout {
+    display: flex;
+    width: 100%;
+    flex-direction: column;  /* Stack elements vertically */
+    height: 100vh;  /* Full viewport height */
+}
