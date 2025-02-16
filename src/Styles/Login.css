@@ -1,0 +1,21 @@
+.LoginContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+
+.LoginCard{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    background-color: #D9EAFD;
+}
+
+.LoginImagecontainer {
+    background-color: black;
+    background-image: url('./../assets/login_image.jpg');
+    background-size: cover !important;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
