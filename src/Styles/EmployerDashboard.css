@@ -1,0 +1,75 @@
+/* Overall layout */
+.EmployerDashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.SideNavBar {
+  width: 250px;
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  width: 150px;
+  /* margin-bottom: 30px; */
+}
+
+/* Navigation links */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navLink {
+  display: block;
+  padding: 10px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.navLink:hover {
+  background-color: #34495e;
+}
+
+/* Main Content */
+.mainContainer {
+  flex-grow: 1;
+  padding: 20px;
+  background-color: #ecf0f1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  border-radius: 8px;
+}
+
+
+/* Additional improvement for responsiveness */
+@media (max-width: 768px) {
+  .EmployerDashboard {
+    flex-direction: column;
+  }
+
+  .SideNavBar {
+    width: 100%;
+    height: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .mainContainer {
+    margin-left: 0;
+    box-shadow: none;
+  }
+}
