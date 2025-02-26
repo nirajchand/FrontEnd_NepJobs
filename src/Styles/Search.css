@@ -1,0 +1,36 @@
+.Search_Container{
+    background-color:#024CAA;
+    height: 100px;
+}
+
+.job_search_box{
+    width: 350px;
+    height: 40px;
+    margin-left: 100px;
+}
+
+.Search_btn{
+    border: 0px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: orange;
+
+}
+
+.location_search_box{
+    width: 350px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.SearchAbout {
+    color: white;
+    text-align: center; /* Centers the text horizontally */
+    font-size: 1.2rem; /* Adjusts the font size */
+    margin: 0; /* Removes any margin */
+    padding: 10px 0; /* Adds vertical padding to make it look nice */
+  }
+
+.SearchText{
+    width: 100%;
+}

@@ -1,0 +1,113 @@
+.mainContainer {
+  max-width: 90%;
+  width: 900px;
+  height: auto;
+  background: linear-gradient(135deg, #f9f9f9, #e8ecef); /* Subtle gradient */
+  margin: 30px auto;
+  padding: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Deeper shadow */
+  border-radius: 15px; /* Rounded corners */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif; /* Modern font (add via Google Fonts) */
+  transition: transform 0.3s ease; /* Smooth scaling on hover */
+}
+
+.mainContainer:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.companyLogo {
+  width: 250px;
+  height: 250px;
+  border-radius: 15px; /* Softer corners */
+  margin-bottom: 25px;
+  object-fit: cover; /* Ensures image fits nicely */
+  border: 3px solid #ffffff; /* White border */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+  transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.companyLogo:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.inlineContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.description {
+  align-self: flex-start;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 5px; /* Reduced from 10px to bring it closer to the paragraph */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, #3498db, #8e44ad);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(to right, #3498db, #8e44ad);
+  width: 80%;
+  margin: 5px auto 10px auto; /* Reduced top/bottom margins for tighter spacing */
+}
+
+.descriptionFirst {
+  align-self: flex-start;
+  font-size: 1.1rem;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  padding-left: 10px;
+  border-left: 4px solid #3498db;
+  margin-top: 0px; /* Removed any top margin to snug it up to the heading */
+}
+/* Table styles remain unchanged as requested */
+.customTable {
+  /* Keeping your original table styles */
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.customTable td {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.applyBtn {
+  background: linear-gradient(45deg, #3498db, #2980b9); /* Gradient button */
+  color: white;
+  width: 120px;
+  height: 60px !important;
+  border-radius: 25px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  align-self: center;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(52, 152, 219, 0.4); /* Button shadow */
+  transition: all 0.3s ease;
+}
+
+.applyBtn:hover {
+  background: linear-gradient(45deg, #2980b9, #3498db); /* Reverse gradient */
+  transform: translateY(-3px); /* Lift effect */
+  box-shadow: 0 6px 14px rgba(52, 152, 219, 0.6);
+}
+
+.applyBtn:disabled {
+  background: #bdc3c7; /* Grayed out when disabled */
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}

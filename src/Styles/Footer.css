@@ -1,50 +1,129 @@
-.Footer_Container{
-    background-color: #B5C0D0;
-    height: 150px;
-    margin-top: auto;
+.Footer_Container {
+    background: linear-gradient(135deg, #B5C0D0, #9AA6B3);
+    padding: 40px 0;
+    border-top: 3px solid #4A5A6A;
 }
 
-.Footer_Container li{
+.FooterContent {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.Footer_Container li {
     list-style-type: none;
 }
 
-.Footer_Container a{
+.Footer_Container a {
     text-decoration: none;
-    color: black;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.Footer_Container a:hover {
+    color: #0066cc;  /* Light blue hover effect */
 }
 
 .Footer_Container ul {
-    padding: 0; 
+    padding: 0;
 }
 
-.FooterEnd{
-    height: 50px;
-    background-color: #9AA6B3;
+.FooterCol {
+    margin-bottom: 20px;
 }
 
-
-.First_col{
-    margin-left: 200px;
+.FooterCol h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-.LastCol{
-    margin-right: 200px;
+.FooterEnd {
+    background-color: #6A7D8B;
+    padding: 15px 0;
+    border-top: 2px solid #4A5A6A;
 }
 
-.Facebook_Icon{
-    width: 50px;
-    height: 50px;
-    margin-left: 200px;
-}
-
-.Instagram_Icon{
+.SocialIcon {
     width: 40px;
     height: 40px;
-    margin-left: 10px;
+    margin-left: 15px;
+    transition: transform 0.3s ease-in-out;
 }
 
-.Linkendin_Icon{
-    width: 40px;
-    height: 40px;
-    margin-left: 10px;
+.SocialIcon:hover {
+    transform: scale(1.1);  /* Enlarges icon slightly on hover */
+}
+
+.FooterEnd .Icons {
+    display: flex;
+    justify-content: center;
+}
+
+.FooterEnd .Icons a {
+    margin-right: 20px;
+}
+
+.FooterEnd .Icons a:last-child {
+    margin-right: 0;
+}
+
+.FooterEnd .Icons img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.FooterEnd .Icons img:hover {
+    filter: brightness(0.8);
+}
+
+@media (max-width: 768px) {
+    .Footer_Container {
+        text-align: center;
+    }
+    
+    .FooterContent {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FooterCol {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .SocialIcon {
+        width: 35px;
+        height: 35px;
+        margin-left: 10px;
+    }
+
+    .FooterEnd {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576px) {
+    .Footer_Container {
+        padding: 20px 0;
+    }
+
+    .FooterCol h5 {
+        font-size: 16px;
+    }
+
+    .FooterCol ul {
+        font-size: 14px;
+    }
+
+    .SocialIcon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .FooterEnd .Icons a {
+        margin-right: 10px;
+    }
 }

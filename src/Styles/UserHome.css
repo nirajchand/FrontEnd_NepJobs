@@ -1,0 +1,28 @@
+/* 1 */
+.UserJobsContainer {
+  margin-left: 100px;
+  width: 800px !important;
+  height: 500px !important;
+  overflow-y: auto;
+  margin-bottom: 150px;
+}
+
+.table td {
+  border: none !important;
+}
+
+.icon-btn::after {
+  display: none !important;
+}
+
+.icon-btn {
+  background: none !important;
+  border: none !important;
+  color: black;
+  font-size: 18px;
+  padding: 0;
+}
+
+.custom-dropdown .dropdown-toggle::after {
+  display: none !important;
+}

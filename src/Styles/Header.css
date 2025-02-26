@@ -1,3 +1,13 @@
+
+.custom_navbar_color{
+    background: linear-gradient(135deg, #00c6ff, #007bff);
+}
+.navbar{
+    height: 80px ;
+
+}
+
+
 .Jobseeker_dropdown{
     margin-left: 500px;
     background-color: white !important;
@@ -14,9 +24,6 @@
 }
 
 
-.custom_navbar_color{
-    background-color: #024CAA ; 
-}
 
 
 .HeaderLogo{

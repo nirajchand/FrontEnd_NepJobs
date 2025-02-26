@@ -1,0 +1,18 @@
+.JobsContainer{
+    width: 820px !important;
+    height: auto;
+    background-color: white;
+    border: 3px;
+    border-style: solid;
+    border-color: #DCDCDC;
+    margin-bottom: 160px;
+}
+
+.StarIcon{
+    width: 50px !important;
+    height: 30px !important;
+}
+
+.JobsBar{
+    width: 815px;
+}

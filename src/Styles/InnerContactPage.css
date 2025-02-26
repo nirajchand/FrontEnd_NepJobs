@@ -1,0 +1,62 @@
+.contact-section {
+  height: 100vh;
+  background-color: #f8f9fa; /* Light gray background */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.contact-card {
+  max-width: 1000px;
+  width: 90%;
+  padding: 30px;
+  background: white;
+  border-radius: 15px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-image {
+  max-width: 90%;
+  border-radius: 10px;
+}
+
+.form-container {
+  padding: 20px;
+  text-align: left;
+}
+
+.contact-title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #dc3545; /* Bootstrap danger color */
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 20px;
+  }
+}
